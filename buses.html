@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Available Bus</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <img
+      src="./Media/logo.png"
+        alt="Logo"
+        width="150px"
+      />
+      <div class="links">
+        <div class="link">
+          <i class="fas fa-bus"></i>
+          <p>BUS</p>
+        </div>
+        <div class="link">
+          <i class="fas fa-plane"></i>
+          <p>AIR</p>
+        </div>
+        <div class="link">
+          <i class="fas fa-ship"></i>
+          <p>SHIP</p>
+        </div>
+        <div class="link">
+          <i class="fas fa-bed"></i>
+          <p>HOTEL</p>
+        </div>
+        <div class="link">
+          <i class="fas fa-bolt"></i>
+          <p>FLASH DEALS</p>
+        </div>
+      </div>
+      <div class="call">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+          <p>Call To Book</p>
+          <p>16460</p>
+        </div>
+      </div>
+      <div class="my-bookings">
+        <i class="fa-solid fa-gear"></i>
+        <p>My Bookings</p>
+      </div>
+      <div class="profileContainer">
+        <div class="profile">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <p>LOGIN / SIGN UP</p>
+      </div>
+    </div>
+    <div class="container" style="margin-top: 80px">
+      <a class="home" href="index.html"><i class="fa-solid fa-house-user"></i></a>
+      <h1 style="text-align: center; padding: 10px">Available Buses For This Route</h1>
+      <div class="show-buses"></div>
+    </div>
+    <div class="loader">
+      <div class="outside"></div>
+      <div class="inside"></div>
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+      <h3 class="h3">Searching</h3>
+    </div>
+    <script src="busdata.js"></script>
+  </body>
+</html>
